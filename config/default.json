@@ -1,0 +1,7 @@
+{
+  "env": "dev",
+  "access-control-allow-origin": [
+    "http://localhost:4200"
+  ],
+  "url": "http://localhost:4200"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "github-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www",
+  "author": "Node Akshay",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "express-rate-limit": "^6.3.0",
+    "graphql": "^16.2.0",
+    "graphql-request": "^3.7.0",
+    "http": "^0.0.1-security",
+    "node-cache": "^5.1.2",
+    "sanitize": "^2.1.0"
+  },
+  "devDependencies": {
+    "config": "^3.3.7"
+  }
+}
