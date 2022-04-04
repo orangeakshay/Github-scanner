@@ -1,0 +1,13 @@
+# Logs
+package-lock.json
+.idea
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/

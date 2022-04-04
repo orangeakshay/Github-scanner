@@ -1,2 +1,2 @@
-# Github-scanner
-These project fetches the required information for github  repositories
+# cg-test-task
+GraphQL Server with Github API...
