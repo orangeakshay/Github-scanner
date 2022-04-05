@@ -215,7 +215,7 @@ const checkWebhooks = (options = {})=> {
         return reject(new AppError(M.ERR_REPOSITORY_NAME_IS_REQUIRED, 'ERR_REPOSITORY_NAME_IS_REQUIRED'))
       }
       const octokit = new Octokit({
-        auth: process.env.GITHUB_TOKEN || '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',
+        auth: process.env.GITHUB_TOKEN || '',
       });
       const response = await octokit.rest.repos.listWebhooks({
         owner: options.ownerName,
